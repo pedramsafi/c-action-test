@@ -1,7 +1,7 @@
 name: My Test Workflow
 
 #define trigger event
-on: [pull_request]
+on: [push]
 
 #jobs run in parallel by default, each runs steps in sequence
 jobs:
